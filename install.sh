@@ -1,20 +1,37 @@
 #! /bin/sh
 
-echo "Instalador de CalmSky JWM"
-echo "1) Instalar"
-echo "2) Cancelar"
+# Mensaje
+clear
+echo "Install CalmSky JWM"
+echo "1) Installl"
+echo "2) Cancel"
+
+# Leer opción
 read opcion
 case $opcion in
+
+ # Instalación
  1)
- mkdir $HOME/.jwm
- cp -r * $HOME/.jwm
- rm $HOME/.jwm/install.sh
- rm -r $HOME/.jwm/caps
- echo "Instalado"
- sh $HOME/.jwm/CS-aplicar.sh
+ clear
+ echo "Installing..."
+ mkdir -p $HOME/.jwm/CalmSky/
+ # Copia los archivos
+ cp -r Light $HOME/.jwm/CalmSky/
+ cp -r Dark $HOME/.jwm/CalmSky/
+ cp -r config $HOME/.jwm/CalmSky/
+ cp -r scripts/* $HOME/.jwm/CalmSky/
+ cp CalmSky.png $HOME/.jwm/CalmSky/
+ clear
+ echo "Installed"
+ wait 5s
+ # Ejecuta el script de configuración
+ echo "Set the theme"
+ sh $HOME/.jwm/CalmSky/set-theme.sh
  ;;
 
+ #Cancelar
  2)
  exit 1
  ;;
+ 
 esac
