@@ -171,11 +171,11 @@
  <!-- Tema -->
 
  <IconPath>
-  $HOME/.jwm/CalmSky/iconos
+  $HOME/.jwm/CalmSky/Light/iconos
  </IconPath>
 
  <IconPath>
-  $HOME/.jwm/CalmSky/iconos/ventana
+  $HOME/.jwm/CalmSky/Light/iconos/ventana
  </IconPath>
 
  <!-- Generales -->
