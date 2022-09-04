@@ -2,9 +2,11 @@
 
 # Mensaje
 clear
-echo "Install CalmSky JWM"
-echo "1) Installl"
-echo "2) Cancel"
+echo "┌──────────────────────┐"
+echo "│ Install CalmSky JWM  │"
+echo "│ 1) Installl          │"
+echo "│ 2) Cancel            │"
+echo "└──────────────────────┘"
 
 # Leer opción
 read opcion
@@ -13,7 +15,9 @@ case $opcion in
  # Instalación
  1)
   clear
-  echo "Installing..."
+  echo "┌───────────────┐"
+  echo "│ Installing... │"
+  echo "└───────────────┘"
   mkdir -p $HOME/.jwm/CalmSky/
 
   # Copia los archivos
@@ -23,16 +27,24 @@ case $opcion in
   cp scripts/* $HOME/.jwm/CalmSky/
   cp CalmSky.png $HOME/.jwm/CalmSky/
 
-  echo "Installed"
+  echo "┌───────────┐"
+  echo "│ Installed │"
+  echo "└───────────┘"
   sleep 2
 
   # Ejecuta el script de configuración
-  echo "Set the theme"
+  echo "┌───────────────┐"
+  echo "│ Set the theme │"
+  echo "└───────────────┘"
   sh $HOME/.jwm/CalmSky/set-theme.sh
  ;;
 
  #Cancelar
  2)
+  clear
+  echo "┌───────────┐"
+  echo "│ Cancelled │"
+  echo "└───────────┘"
   exit 1
  ;;
 
