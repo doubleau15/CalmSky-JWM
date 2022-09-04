@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<JWM>
+
+ <!-- Favoritos -->
+
+ <Menu icon="menu-favoritos" label="Favoritos">
+  <Program label="Firefox">firefox</Program>
+  <Program label="Inkscape">inkscape</Program>
+ </Menu>
+
+ <!-- Herramientas -->
+
+ <Menu icon="menu-herramientas" label="Herramientas">
+  <Program label="Captura de Pantalla">xfce4-screenshooter</Program>
+ </Menu>
+
+</JWM>

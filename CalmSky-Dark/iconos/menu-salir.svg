@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="menu-salir.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="13.302446"
+     inkscape:cx="-9.1336586"
+     inkscape:cy="8.1188076"
+     inkscape:window-width="1358"
+     inkscape:window-height="708"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#e12a2a;-inkscape-stroke:none;fill-opacity:1"
+       d="M 8.292889,3.9530338 4.918246,6.9065904 a 0.78859,0.78859 0 0 0 0,1.1868192 L 8.292889,11.046966 A 0.5011653,0.5011653 0 0 0 9,11 v 0 A 0.50091862,0.50091862 0 0 0 8.9530423,10.293063 L 5.7617187,7.5 8.9530423,4.7069368 A 0.50091863,0.50091863 0 0 0 9,4 V 4 A 0.5011653,0.5011653 0 0 0 8.292889,3.9530338 Z"
+       id="path2503" />
+    <rect
+       style="stroke-width:2.63118;stroke-opacity:0.5;fill:#e12a2a;fill-opacity:1"
+       id="rect914"
+       width="10"
+       height="1"
+       x="5"
+       y="7"
+       ry="0" />
+    <path
+       id="rect859"
+       style="stroke-width:6;stroke-linecap:round;stroke-linejoin:round;fill:#e12a2a;fill-opacity:1"
+       d="M 7.5 0 C 3.345 0 0 3.345 0 7.5 C 0 11.655 3.345 15 7.5 15 C 11.655 15 15 11.655 15 7.5 C 15 3.345 11.655 0 7.5 0 z M 7.5 1 C 11.101 1 14 3.899 14 7.5 C 14 11.101 11.101 14 7.5 14 C 3.899 14 1 11.101 1 7.5 C 1 3.899 3.899 1 7.5 1 z " />
+  </g>
+</svg>
