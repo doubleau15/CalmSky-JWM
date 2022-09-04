@@ -10,11 +10,13 @@ Tema con estética minimalista y neomodernista para JWM
 
 ## Instalación:
 
-Ejecuta el script 'install.sh'
+Ejecuta el script `install.sh`
 
 ## Aplicación del tema:
 
 Tras la instalación se ejecutara el script que cambia el tema.
-Puedes volverlo a ejecutar en cualquier momento mediante:
-'sh $HOME/.jwm/CS-aplicar.sh'
+
+##### Puedes volverlo a ejecutar en cualquier momento mediante:
+
+`sh $HOME/.jwm/CS-aplicar.sh`
 
