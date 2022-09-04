@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+
+ <!----------------------------------------
+
+ CalmSky
+  - doubleau <https://github.com/doubleau>
+
+ ----------------------------------------->
+
+<JWM>
+
+<!-- Escritorios virtuales -->
+
+ <Desktops width="2" height="1">
+  <Background type="image">$HOME/.jwm/CalmSky/CalmSky.png</Background>
+ </Desktops>
+
+<!-- Menú --> 
+
+ <RootMenu onroot="12" height="16">
+
+  <!-- Accesos rápidos -->
+
+  <Include>$HOME/.jwm/CalmSky/config/accesos</Include>
+
+
+  <!-- Programas -->
+
+  <Include>$HOME/.jwm/CalmSky/config/menu</Include>
+
+  <!-- JWM -->
+
+  <Restart label="Recargar" icon="menu-recargar"/>
+  <Exit label="Salir" icon="menu-salir" confirm="true"/>
+
+ </RootMenu>
+
+ <!-- Estilo del menú -->
+
+ <MenuStyle>
+
+  <!-- Normal -->
+
+  <Font>Cantarell-12</Font>
+  <Outline>#323232</Outline>
+  <Background>#323232</Background>
+  <Foreground>#F1F1F1</Foreground>
+
+  <!-- Activo -->
+
+  <Active>
+   <Background>#232323</Background>
+   <Foreground>#F1F1F1</Foreground>
+  </Active>
+
+ </MenuStyle>
+
+ <!-- Ventanas -->
+
+ <Include>$HOME/.jwm/CalmSky/config/ventana</Include>
+
+ <!-- Ociones para los grupos de programas -->
+
+ <Group>
+  <Option>tiled</Option>
+  <Option>aerosnap</Option>
+ </Group>
+
+ <!-- Tray -->
+
+ <Tray x="0" y="0" height="24" autohide="off" delay="1000">
+
+   <Spacer width="8"/>
+
+  <!-- Botón -->
+  <TrayButton icon="menu" label="JWM">root:1</TrayButton>
+
+   <Spacer width="8"/>
+
+  <!-- Selector de escritorios -->
+  <Pager labeled="false"/>
+
+   <Spacer width="8"/>
+
+  <!-- Botones de ventanas -->
+  <TaskList maxwidth="192"/>
+
+  <Swallow width="32" height="32" name="xclock">xclock</Swallow>
+
+  <Dock/>
+
+  <!-- Reloj -->
+  <Clock format="%l:%M %p"></Clock>
+
+   <Spacer width="8"/>
+
+  <!-- Mostrar escritorio -->
+  <TrayButton icon="escritorio" label="">showdesktop</TrayButton>
+
+   <Spacer width="8"/>
+
+ </Tray>
+
+ <!-- Estilo del Tray -->
+
+ <TrayStyle group="false" list="all" decorations="motif">
+
+  <Font>Cantarell-12</Font>
+  <Background>#323232</Background>
+  <Foreground>#F1F1F1</Foreground>
+  <Outline>#323232</Outline>
+  <Opacity>1</Opacity>
+
+ </TrayStyle>
+
+ <!-- Estilo de los botones de ventanas -->
+
+ <TaskListStyle list="all" group="true" decorations="flat">
+  
+  <!-- Normal -->
+
+  <Font>Cantarell-11</Font>
+  <Foreground>#F4F4F4</Foreground>
+  <Background>#323232</Background>
+  <Outline>#323232</Outline>
+
+  <!-- Activo -->
+
+  <Active>
+   <Foreground>#F1F1F1</Foreground>
+   <Background>#232323</Background>   
+   <Oultine>#232323</Oultine>  
+  </Active>
+
+ </TaskListStyle>
+
+ <!-- Selector de escritorios -->
+
+ <PagerStyle>
+
+  <!-- Normal -->
+
+  <Foreground>#F1F1F1</Foreground>
+  <Background>#232323</Background>
+  <Text>#F1F1F1</Text>
+
+  <!-- Activo -->
+
+  <Active>
+   <Foreground>#4A9FF4</Foreground>
+   <Background>#232323</Background>
+  </Active>
+
+ </PagerStyle>
+
+ <!-- Popup -->
+
+ <PopupStyle>
+  <Font>Cantarell-12</Font>
+  <Foreground>#F1F1F1</Foreground>
+  <Background>#323232</Background>
+ </PopupStyle>
+
+ <!-- Reloj -->
+ <ClockStyle>
+  <Font>Cantarell-12:bold</Font>
+ </ClockStyle>
+
+ <!-- Íconos -->
+
+ <!-- Tema -->
+
+ <IconPath>
+  $HOME/.jwm/CalmSky-Dark/iconos
+ </IconPath>
+
+ <IconPath>
+  $HOME/.jwm/CalmSky-Dark/iconos/ventana
+ </IconPath>
+
+ <!-- Generales -->
+
+ <IconPath>
+  $HOME/.icons
+ </IconPath>
+
+ <IconPath>
+  /usr/share/icons
+ </IconPath>
+
+ <IconPath>
+  /usr/local/lib/X11/icons
+ </IconPath>
+
+ <!-- Comportamiento -->
+
+  <!-- Velocidad del doble click en milisegundos -->
+  <DoubleClickSpeed>400</DoubleClickSpeed>
+
+  <!-- Delta del doble click en pixeles -->
+  <DoubleClickDelta>2</DoubleClickDelta>
+
+  <!-- Tipo de enfoque de ventana -->
+  <FocusModel>sloppy</FocusModel>
+
+  <!-- The snap mode (none, screen, or border) -->
+  <SnapMode distance="10">border</SnapMode>
+
+  <!-- El modo "Move" -->
+  <MoveMode>opaque</MoveMode>
+
+  <!-- EL modo "Resize" -->
+  <ResizeMode>opaque</ResizeMode>
+
+  <!-- Atajos de teclado -->
+
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="h">left</Key>
+    <Key key="j">down</Key>
+    <Key key="k">up</Key>
+    <Key key="l">right</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
+ <Key key="Imp">xfce4-screenshooter</Key>
+
+    <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="A" key="#">desktop#</Key>
+    <Key mask="A" key="F1">root:1</Key>
+    <Key mask="A" key="F2">window</Key>
+    <Key mask="A" key="F10">maximize</Key>
+    <Key mask="A" key="Right">rdesktop</Key>
+    <Key mask="A" key="Left">ldesktop</Key>
+    <Key mask="A" key="Up">udesktop</Key>
+    <Key mask="A" key="Down">ddesktop</Key>
+
+</JWM>
