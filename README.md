@@ -1,22 +1,22 @@
 # CalmSky-JWM
-Tema con estética minimalista y neomodernista para JWM
+Minimalist theme for JWM.
 
-![Claro](https://github.com/doubleau15/CalmSky-JWM/blob/main/caps/CalmSky-JWM-neo.png "CalmSky")
-![Oscuro](https://github.com/doubleau15/CalmSky-JWM/blob/main/caps/CalmSky-Dark-JWM-neo.png "CalmSky Dark")
+![Light](https://github.com/doubleau15/CalmSky-JWM/blob/main/caps/CalmSky-JWM-neo.png "CalmSky")
+![Dark](https://github.com/doubleau15/CalmSky-JWM/blob/main/caps/CalmSky-Dark-JWM-neo.png "CalmSky Dark")
 
-#### Requisitos:
-- **jwm**
-- **librsvg** y **cairo** para renderizar svg
+#### Requirements:
+- **jwm**,
+- **librsvg** and **cairo** for svg render.
 
-## Instalación:
+## Installation:
 
-Ejecuta el script `install.sh` dentro la carpeta del proyecto
+Run the `install.sh` script inside the project folder.
 
-## Aplicación del tema:
+## Set theme:
 
-Tras la instalación se ejecutara el script que cambia el tema.
+After the installation the script that changes the theme will be run.
 
-##### Puedes volverlo a ejecutar en cualquier momento mediante:
+##### You can always run it again with:
 
 `sh $HOME/.jwm/CS-aplicar.sh`
 
