@@ -10,7 +10,7 @@ Tema con estética minimalista y neomodernista para JWM
 
 ## Instalación:
 
-Ejecuta el script `install.sh`
+Ejecuta el script `install.sh` dentro la carpeta del proyecto
 
 ## Aplicación del tema:
 
