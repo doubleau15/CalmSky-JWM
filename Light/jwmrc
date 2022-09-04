@@ -57,7 +57,7 @@
 
  <!-- Ventanas -->
 
- <Include>$HOME/.jwm/CalmSky/config/ventana</Include>
+ <Include>$HOME/.jwm/CalmSky/config/ventana-light</Include>
 
  <!-- Ociones para los grupos de programas -->
 
