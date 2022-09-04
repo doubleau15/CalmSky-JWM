@@ -26,6 +26,10 @@ case $opcion in
   cp -r config $HOME/.jwm/CalmSky/
   cp scripts/* $HOME/.jwm/CalmSky/
   cp CalmSky.png $HOME/.jwm/CalmSky/
+  
+  # Da permisos de ejecución a los scripts
+  chmod 777 $HOME/.jwm/CalmSky/set-theme.sh
+  chmod 777 $HOME/.jwm/CalmSky/uninstall.sh
 
   echo "┌───────────┐"
   echo "│ Installed │"
