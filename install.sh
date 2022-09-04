@@ -11,27 +11,27 @@ read opcion
 case $opcion in
 
  # Instalación
- 1)
- clear
- echo "Installing..."
- mkdir -p $HOME/.jwm/CalmSky/
- # Copia los archivos
- cp -r Light $HOME/.jwm/CalmSky/
- cp -r Dark $HOME/.jwm/CalmSky/
- cp -r config $HOME/.jwm/CalmSky/
- cp -r scripts/* $HOME/.jwm/CalmSky/
- cp CalmSky.png $HOME/.jwm/CalmSky/
- clear
- echo "Installed"
- wait 5s
- # Ejecuta el script de configuración
- echo "Set the theme"
- sh $HOME/.jwm/CalmSky/set-theme.sh
+  1)
+  clear
+  echo "Installing..."
+  mkdir -p $HOME/.jwm/CalmSky/
+  # Copia los archivos
+  cp -r Light $HOME/.jwm/CalmSky/
+  cp -r Dark $HOME/.jwm/CalmSky/
+  cp -r config $HOME/.jwm/CalmSky/
+  cp -r scripts/* $HOME/.jwm/CalmSky/
+  cp CalmSky.png $HOME/.jwm/CalmSky/
+  clear
+  echo "Installed"
+  wait 5s
+  # Ejecuta el script de configuración
+  echo "Set the theme"
+  sh $HOME/.jwm/CalmSky/set-theme.sh
  ;;
 
  #Cancelar
  2)
- exit 1
+  exit 1
  ;;
  
 esac
