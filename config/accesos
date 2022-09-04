@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<JWM>
+
+ <!-- Accesos -->
+
+  <Program label="Terminal" icon="menu-terminal">xfce4-terminal</Program>
+  <Program label="Archivos" icon="menu-archivos">thunar</Program>
+
+</JWM>
