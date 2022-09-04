@@ -18,5 +18,5 @@ After the installation the script that changes the theme will be run.
 
 ##### You can always run it again with:
 
-`sh $HOME/.jwm/CS-aplicar.sh`
+`sh $HOME/.jwm/CalmSky/set-theme.sh`
 
